@@ -1,6 +1,5 @@
 package br.com.compasso.services;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +8,6 @@ import br.com.compasso.DAO.ClienteDAO;
 import br.com.compasso.DAO.ProdutoDAO;
 import br.com.compasso.model.Cliente;
 import br.com.compasso.model.Produto;
-import br.com.compasso.utils.Filenames;
 
 public class PreparaPedido {
 	ClienteDAO clienteDao = new ClienteDAO();

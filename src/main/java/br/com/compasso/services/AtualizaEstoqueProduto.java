@@ -10,7 +10,6 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
 import br.com.compasso.DAO.ProdutoDAO;
 import br.com.compasso.model.Produto;
-import br.com.compasso.services.cadastros.CadastrarItem;
 import br.com.compasso.utils.Filenames;
 @JacksonXmlRootElement(localName = "CadastroProduto")
 public class AtualizaEstoqueProduto{

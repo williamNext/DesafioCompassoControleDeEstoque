@@ -10,10 +10,8 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
-import br.com.caelum.stella.validation.InvalidStateException;
 import br.com.compasso.DAO.ClienteDAO;
 import br.com.compasso.model.Cliente;
-import br.com.compasso.model.Produto;
 import br.com.compasso.services.ValidaCPF;
 import br.com.compasso.utils.Filenames;
 

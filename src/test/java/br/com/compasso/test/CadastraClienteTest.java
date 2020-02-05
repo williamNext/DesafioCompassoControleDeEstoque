@@ -3,9 +3,7 @@ package br.com.compasso.test;
 import br.com.compasso.DAO.ClienteDAO;
 import br.com.compasso.model.Cliente;
 import br.com.compasso.services.cadastros.CadastroCliente;
-import org.junit.Test;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;

@@ -6,10 +6,8 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
 
-import org.junit.jupiter.api.Test;
 
 import br.com.compasso.DAO.ProdutoDAO;
-import br.com.compasso.model.Cliente;
 import br.com.compasso.model.Produto;
 import br.com.compasso.services.cadastros.CadastroProduto;
 

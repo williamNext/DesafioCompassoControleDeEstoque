@@ -18,7 +18,6 @@ public class Produto {
 	@JacksonXmlProperty(localName = "qauntidadeEstoque")
 	private int quantidadeEstoque;
 	
-	private boolean emEstoque;
 
 
 	public Produto() {}
@@ -31,7 +30,6 @@ public class Produto {
 		this.nome = nome;
 		this.descricao = descricao;
 		this.quantidadeEstoque = quantidadeEstoque;
-		this.emEstoque = true;
 	}
 
 
@@ -45,20 +43,6 @@ public class Produto {
 	public void setQuantidadeEstoque(int quantidadeEstoque) {
 		this.quantidadeEstoque = quantidadeEstoque;
 	}
-
-
-
-	public boolean isEmEstoque() {
-		return emEstoque;
-	}
-
-
-
-	public void setEmEstoque(boolean emEstoque) {
-		this.emEstoque = emEstoque;
-	}
-
-
 
 	public void setCodigo(int codigo) {
 		this.codigo = codigo;
@@ -122,7 +106,8 @@ public class Produto {
 	
 	@Override
 	public String toString() {
-		return"Código: "+this.codigo+ " Nome do Produto: "+this.nome+" quantidade em estoque: "+this.quantidadeEstoque;
+		return"Código: "+this.codigo+ " Nome do Produto: "+this.nome+" quantidade em estoque: "+this.quantidadeEstoque
+				+" Descrição:"+this.descricao+" preço: "+this.valor;
 	}
 	
 }

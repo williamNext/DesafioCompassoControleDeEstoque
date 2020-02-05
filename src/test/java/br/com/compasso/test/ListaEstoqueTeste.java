@@ -1,7 +1,6 @@
 package br.com.compasso.test;
 
 
-import java.io.IOException;
 
 import org.junit.jupiter.api.Test;
 
@@ -12,11 +11,7 @@ class ListaEstoqueTeste {
 	@Test
 	void test() {
 		ListaEstoque estoque= new ListaEstoque();
-		try {
-			estoque.listaProdutosEstoque();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		estoque.listaProdutosEstoque();
 	}
 
 }
